@@ -20,6 +20,10 @@ app.get("/hops", function(req, res) {
   res.sendFile(path.join(__dirname, "public/hops.html"));
 });
 
+app.get("/liveStock", function(req, res) {
+  res.sendFile(path.join(__dirname, "public/liveStock.html"));
+});
+
 // Starts the server to begin listening
 // =============================================================
 app.listen(PORT, function() {

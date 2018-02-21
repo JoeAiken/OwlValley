@@ -58,6 +58,25 @@ div.navItem {
 	transform: translateY(-50%);
 }
 
+#hours {
+
+	text-align: left;
+	margin-bottom: 50%;
+}
+
+.hoursOn {
+
+	color: white;
+	text-shadow: 2px 2px 8px green;
+
+}
+
+.hoursOff {
+
+	color: white;
+	text-shadow: 2px 2px 8px red;
+}
+
 .caption {
   display: block;
   position: relative;
@@ -88,6 +107,11 @@ div.navItem {
 .navButton {
 	height: 125px;
 	width: 125px;
+}
+
+#backBtn {
+
+	margin-top: 5%;
 }
 
 #aboutPhoto {
