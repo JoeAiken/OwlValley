@@ -2,7 +2,9 @@
 .titleBox{
 	background: rgba(88, 88, 88, 0.5);
 	color: white;
+	height: 300px;
 }
+
 
 .d-block {
 	width: 100%;
@@ -19,26 +21,27 @@ div.navItem {
 }
 
 #hopNav {
-    background: green;
+    background: #0074D9;
     border-radius: 50%;
     box-shadow: 10px 10px 5px lightgrey;
 }
 
 #chickenNav {
-	background: gold;
+	background: #0074D9;
 	border-radius: 50%;
 	box-shadow: 10px 10px 5px lightgrey;
 }
 
 #carrotNav{
-	background: slateblue;
+	background: #0074D9;
 	border-radius: 50%;
 	box-shadow: 8px 8px 5px lightgrey;
 }
 
 #emailNav {
-    background: red;
+    background: #0074D9;
     border-radius: 50%;
+    border: 10px black;
     box-shadow: 10px 10px 5px lightgrey;
 }
 /*.caption {
@@ -47,6 +50,11 @@ div.navItem {
 */
 .carousel-caption{
 	top: 50%;
+	transform: translateY(-50%);
+}
+
+.aboutBox {
+	top: 30%;
 	transform: translateY(-50%);
 }
 
@@ -80,4 +88,32 @@ div.navItem {
 .navButton {
 	height: 125px;
 	width: 125px;
+}
+
+#aboutPhoto {
+	border-radius: 50%;
+	height: 350px;
+	width: 350px;
+	margin-left: 5%;
+	border: outset;
+}
+
+#owlLogo {
+	border-radius: 50%;
+	opacity: 0.8;
+}
+
+.aboutText {
+	margin-top: 12%;
+	text-shadow: 2px 2px 8px black;
+}
+
+#navRow {
+	background-image: url(../images/);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#aboutTitle{
+	text-shadow: 2px 2px 8px black;
 }
