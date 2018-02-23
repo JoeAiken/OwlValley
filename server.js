@@ -24,6 +24,14 @@ app.get("/liveStock", function(req, res) {
   res.sendFile(path.join(__dirname, "public/liveStock.html"));
 });
 
+app.get("/crops", function(req, res) {
+  res.sendFile(path.join(__dirname, "public/crops.html"));
+});
+
+app.get("/message", function(req, res) {
+  res.sendFile(path.join(__dirname, "public/message.html"));
+});
+
 // Starts the server to begin listening
 // =============================================================
 app.listen(PORT, function() {

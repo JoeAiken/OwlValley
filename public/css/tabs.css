@@ -1,0 +1,70 @@
+body{
+	background-image: url('../images/hopsDrawing.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#backBtn:hover .caption {
+  visibility: visible;
+  opacity: 1;
+}
+
+#backBtn:hover {
+	-webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+#backBtn {
+
+	margin-top: 30%;
+	margin-left: 15%;
+	height: 125px;
+	width: 125px;
+	background: #0074D9;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px rgba(88, 88, 88, 0.5);
+}
+
+#tabTitle{
+	
+	margin-top: 8%;
+	margin-left: 8%;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+
+}
+
+.aboutBox {
+
+	background: rgba(88, 88, 88, 0.5);	 
+	margin-top: 3%;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	height: auto;
+	box-shadow: 8px 8px 5px rgba(88, 88, 88, 0.5);
+}
+
+.aboutText {
+	margin-top: 5%; 
+}
+
+.hopPhoto {
+
+	height: 250px;
+	width: 300px;
+	padding: 20px 25px 20px 25px;
+	border-radius: 50%;
+
+}
+
+#bucketPic {
+	margin-left: -10%;
+}
+
+.form-control {
+	opacity: 0.6;
+}

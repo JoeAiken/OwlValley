@@ -2,7 +2,8 @@
 .titleBox{
 	background: rgba(88, 88, 88, 0.5);
 	color: white;
-	height: 300px;
+	height: auto;
+	width: auto;
 }
 
 
@@ -44,13 +45,14 @@ div.navItem {
     border: 10px black;
     box-shadow: 10px 10px 5px lightgrey;
 }
-/*.caption {
+.caption {
    display: block;
 }
-*/
+
 .carousel-caption{
 	top: 50%;
 	transform: translateY(-50%);
+
 }
 
 .aboutBox {
@@ -122,13 +124,20 @@ div.navItem {
 	border: outset;
 }
 
+#hoursPhoto {
+	border-radius: 50%;
+	height: 350px;
+	width: 350px;
+	margin-left: 5%;
+}
+
 #owlLogo {
 	border-radius: 50%;
 	opacity: 0.8;
 }
 
 .aboutText {
-	margin-top: 12%;
+	margin-top: 9%;
 	text-shadow: 2px 2px 8px black;
 }
 

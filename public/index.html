@@ -12,6 +12,7 @@
 	<title>Owl Valley Farm</title>
 </head>
 <body>
+  <div class="container-fluid">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval = '25000'>
 		<ol class="carousel-indicators">
 	    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -19,36 +20,43 @@
 	    	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 	  	</ol>
   		<div class="carousel-inner" role="listbox">
-    		<div class="carousel-item active">
+    		
+       <!--  Carousel Slide 1 -->
+        <div class="carousel-item active">
       			<img class="d-block img-fluid" src="./images/hopsBackground.jpg" alt="First slide">
-      			<div class="carousel-caption d-none d-md-block">
-    				<img id = 'owlLogo' src="./images/owlValleyLogo.jpg">
-  				</div>
+      			<div class="carousel-caption">
+    				  <img id = 'owlLogo' src="./images/owlValleyLogo.jpg">
+  				  </div>
     		</div>
-    		<div class="carousel-item">
+    		
+       <!--  Carousel Slide 2 -->
+        <div class="carousel-item">
       			<img class="d-block img-fluid" src="./images/subtleBackground.jpg" alt="Second slide">
-      			<div class="carousel-caption d-none d-md-block aboutBox">
+      			<div class="carousel-caption aboutBox">
       				<div class = 'row'>
       					<div class="col-md-12">
-      						<h1 id = 'aboutTitle'>About Owl Valley</h1>
+      						<h1 class = "titleStyle" id = 'aboutTitle'>About Owl Valley</h1>
       					</div>
               </div>
+
       				<div class="row">
-      					<div class="col-md-6 titleBox">
-      						<h5 class = 'aboutText'> We are a family owned hop yard and vegetable farm located in the Adirondacks of Upstate New York. Awarded Warren County Farm of the Year in 2016 we are a one of a kind operation ranging from our two acre hop yard to our 30x72 ft greenhouse.</h5>
-							<h4 class = 'aboutText'>Use the tabs below to discover what we have going on at the farm!</h4>
-      					</div>
+        					<div class="col-md-6 titleBox">
+        					   <h5 class = 'aboutText'> We are a family owned hop yard and vegetable farm located in the Adirondacks of Upstate New York. Awarded Warren County Farm of the Year in 2016 we are a one of a kind operation ranging from our two acre hop yard to our 30x72 ft greenhouse.</h5>
+  							   <h4 class = 'aboutText'>Use the tabs below to discover what we have going on at the farm!</h4>
+        					</div>
+        
       					<div class="col-md-6">
       						<img id = "aboutPhoto" src="./images/richyBoy.jpg">
       					</div>
       				</div>
-      			</div>
-    		</div>
+            </div>
+          </div>
+
     		<div class="carousel-item">
       			<img class="d-block img-fluid" src="./images/duskFarm.jpg" alt="Third slide">
-      			<div class = 'carousel-caption d-none d-md-block aboutBox'>
+      			<div class = 'carousel-caption aboutBox'>
       				<div class="row">
-                <div class="col-md-8 titleBox">
+                <div class="col-md-6 titleBox">
                   <h5 class="aboutText">Location: 192 Ingraham Road, Pottersville NY 12860</h5>
                   <h5 class="aboutText" id = "hours">
                     Monday: <span class="hoursOn">8:00 am - 4:00 pm</span><br>
@@ -59,8 +67,12 @@
                     Saturday: <span class="hoursOff">Closed</span><br>
                     Sunday: <span class="hoursOff">Closed</span>
                   </h5>
+                </div>  
 
-                </div>    
+                <div class="col-md-6">
+                  <img id = "hoursPhoto" src="./images/fogFarm.png">
+                </div>
+
               </div>
       			</div>
     		</div>
@@ -92,19 +104,20 @@
 
 		<div class = 'col-md-3'>
 			<div class = 'navItem'>
-				<img id = 'carrotNav' src = './images/carrotIcon.png' alt = 'Vegetable Icon' class = 'navButton'>
+				<a href="/crops"><img id = 'carrotNav' src = './images/carrotIcon.png' alt = 'Vegetable Icon' class = 'navButton'></a>
 				<span class = 'caption'>CROPS</span>
 			</div>
 		</div>
 
 		<div class = 'col-md-3'>
 			<div class = 'navItem'>
-				<img id = 'emailNav' src = './images/emailIcon.png' alt = 'Email Icon' class = 'navButton'>
+				<a href="/message"><img id = 'emailNav' src = './images/emailIcon.png' alt = 'Email Icon' class = 'navButton'></a>
 				<span class = 'caption'>CONTACT US</span>
 			</div>
 		</div>
 		
 	</div>
+</div>
 
 <script type="text/javascript" src = './javascript/index.js'></script>
 <!-- JS, jQuery, tether for bootstrap -->
