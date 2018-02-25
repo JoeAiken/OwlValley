@@ -10,7 +10,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
@@ -31,6 +31,9 @@ app.get("/crops", function(req, res) {
 app.get("/message", function(req, res) {
   res.sendFile(path.join(__dirname, "public/message.html"));
 });
+
+//----------routes-----------------
+require("./routes/emailRoute.js")(app);
 
 // Starts the server to begin listening
 // =============================================================

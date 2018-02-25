@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/tabs.css">
 	<!--Bootstrap 4 -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	
 </head>
 <body>
@@ -21,18 +23,30 @@
 				<a href="/"><img id="backBtn" src="images/backButton.png"></a>
 			</div>
 		</div>
-
+		
+		<!-- CONTACT FORM -->
 		<div class="row">
 			<div class="col-md-2"></div>
 
 			<div class="col-md-8 aboutBox">
-				<form>
+				<form action="/send" method="get">
 					<div class="form-group">
-						<label for="exampleInputEmail1">Email address</label>
+						<label for="email">Email address</label>
 						<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-						<label for="exampleInputEmail1">Name</label>
+					</div>
+					<div class="form-group">	
+						<label for="name">Name</label>
 						<input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter full name">
 					</div>
+					<div class="form-group">
+						<label for="phone">Contact Number</label>
+						<input type="text" class="form-control" id="phone" aria-describedby="nameHelp" placeholder="Enter contact number">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>	
+    					<textarea class="form-control" id="message" rows="3"></textarea>
+					</div>
+					<button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
 				</form>
 			</div>
 
@@ -42,6 +56,6 @@
 		</div>
 
 
-
+<script type="text/javascript" src="./javascript/email.js"></script>
 </body>
 </html>
