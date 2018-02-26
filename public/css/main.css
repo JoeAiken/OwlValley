@@ -26,30 +26,32 @@ div.navItem {
     background: #0074D9;
     border-radius: 50%;
     box-shadow: 10px 10px 5px lightgrey;
+    max-height: 125px;
+	max-width: 125px;
 }
 
 #chickenNav {
 	background: #0074D9;
 	border-radius: 50%;
 	box-shadow: 10px 10px 5px lightgrey;
-	max-height: 200px;
-	max-width: 200px;
+	max-height: 125px;
+	max-width: 125px;
 }
 
 #carrotNav{
 	background: #0074D9;
 	border-radius: 50%;
 	box-shadow: 8px 8px 5px lightgrey;
-	max-height: 200px;
-	max-width: 200px;
+	max-height: 125px;
+	max-width: 125px;
 }
 
 #emailNav {
     background: #0074D9;
     border-radius: 50%;
     box-shadow: 10px 10px 5px lightgrey;
-    max-height: 200px;
-	max-width: 200px;
+    max-height: 125px;
+	max-width: 125px;
 }
 .caption {
    display: block;
@@ -153,8 +155,8 @@ div.navItem {
 #navRow {
 	background-image: url(../images/hop2.png);
 	background-repeat: no-repeat;
-	background-size: auto;
-	background-attachment: fixed;
+	background-size: contain;
+	background-attachment: scroll;
 }
 
 #aboutTitle{
