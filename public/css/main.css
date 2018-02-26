@@ -153,7 +153,7 @@ div.navItem {
 #navRow {
 	background-image: url(../images/hop2.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: auto;
 	background-position: top; 
 	background-attachment: fixed;
 }
