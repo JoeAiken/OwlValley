@@ -18,18 +18,19 @@ body{
 
 #backBtn {
 
-	margin-top: 30%;
-	margin-left: 15%;
-	height: 125px;
-	width: 125px;
+	margin-top: 3%;
+	margin-left: 5%;
+	height: 100px;
+	width: 100px;
 	background: #0074D9;
     border-radius: 50%;
     box-shadow: 10px 10px 5px rgba(88, 88, 88, 0.5);
+
 }
 
 #tabTitle{
 	
-	margin-top: 8%;
+	margin-top: 2%;
 	margin-left: 8%;
 	color: white;
 	text-shadow: 2px 2px 8px black;
