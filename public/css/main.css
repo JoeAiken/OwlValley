@@ -92,10 +92,11 @@ div.navItem {
   bottom: 0;
   left: 0;
   right: 0;
-  background: springgreen;
+  background: silver;
   color: #fff;
   visibility: hidden;
   opacity: 0;
+  text-shadow: 2px 2px 10px black;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
@@ -150,11 +151,18 @@ div.navItem {
 }
 
 #navRow {
-	background-image: url(../images/);
+	background-image: url(../images/hop2.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
+	background-position: top; 
+	background-attachment: fixed;
 }
 
 #aboutTitle{
 	text-shadow: 2px 2px 8px black;
+}
+
+.page-footer {
+
+	background-color: darkGray;
 }

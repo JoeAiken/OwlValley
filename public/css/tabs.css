@@ -68,3 +68,7 @@ body{
 .form-control {
 	opacity: 0.6;
 }
+
+.page-footer {
+	background-color: darkGray;
+}
