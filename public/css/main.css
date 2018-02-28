@@ -156,7 +156,9 @@ div.navItem {
 	background-image: url(../images/hop2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-attachment: scroll;
+	background-position: center;
+	background-size: 100px 150px;
+	background-attachment: fixed;
 }
 
 #aboutTitle{
